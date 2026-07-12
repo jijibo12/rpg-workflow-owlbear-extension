@@ -1,0 +1,89 @@
+{
+  "scanner_version": "publish-scan-1.0.0",
+  "rules_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "artifact_hash": "eb938ab020d4a0b43d81b6014f547dc144b16f21c4f0df8ba5124e738d51f1c5",
+  "manifest": {
+    "name": "D&D 5e 跑团工作台 · 场景导入",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "description": "从 D&D 5e 跑团工作台的本地素材包创建 Owlbear 场景并导入标记与遮罩。",
+    "icon": "./icon.png",
+    "action": {
+      "title": "导入跑团工作台素材包",
+      "icon": "./icon.png",
+      "popover": "./index.html"
+    }
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "6f22142d3d7e38793644bc8c31f9577715250dfb15268c4fa9f0c8ed6d7c023e",
+      "bytes": 588
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "372bbd2c5a7d885d4a79bb19aa1152a8594e5153a6b2ffa814c43a8f9eed26ba",
+      "bytes": 41893
+    },
+    {
+      "path": "package.json",
+      "sha256": "a3304e7842ef52e65aa9716f61bc22a72d35155058af89d6a68b11f2fc714c66",
+      "bytes": 279
+    },
+    {
+      "path": "README.md",
+      "sha256": "56e32440f16e3fb34214a96a5a148769c43c3bb181e33ca995621eadcf78f758",
+      "bytes": 844
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "58fb7d5a49c4e847f9d54ee9651d6f1da4c34a1b9ba157e2b8e9b225d2bbf079",
+      "bytes": 112
+    },
+    {
+      "path": "dist/icon.png",
+      "sha256": "7c619659907ea5f0a20341d07c217570b72dc7dc2470843c4d4cce0e86ee580d",
+      "bytes": 1090
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "2c30fc477f6127284e9dd02fd2d2dfd9510c90531f4951f1965aeccb357ab50d",
+      "bytes": 690
+    },
+    {
+      "path": "dist/manifest.json",
+      "sha256": "bc0514efb6b15c471e729e96614f4a1b4e7f88a51175322a200ba4c9325d7bb6",
+      "bytes": 315
+    },
+    {
+      "path": "public/icon.png",
+      "sha256": "7c619659907ea5f0a20341d07c217570b72dc7dc2470843c4d4cce0e86ee580d",
+      "bytes": 1090
+    },
+    {
+      "path": "public/manifest.json",
+      "sha256": "bc0514efb6b15c471e729e96614f4a1b4e7f88a51175322a200ba4c9325d7bb6",
+      "bytes": 315
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "e01db08f496b18f24ca08d0fd3d9d65ff3553cfa9ce552332b397b477d593d06",
+      "bytes": 6088
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "f3c75de7f6cd22929f01a270708fa0bf7d93f848efad031b100f2b8a4427a315",
+      "bytes": 503
+    },
+    {
+      "path": "dist/assets/index-CpiLgAoj.js",
+      "sha256": "a7b78a4ab42672367482b697067812fa2e384c78dea9a1a32c33cc031e45735f",
+      "bytes": 166347
+    },
+    {
+      "path": "dist/assets/index-Drb438AT.css",
+      "sha256": "77dd410f9ed9a0636844ec355a8722e51f14d5a48daf4ac4f543480214d799fe",
+      "bytes": 501
+    }
+  ]
+}

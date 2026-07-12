@@ -1,0 +1,1 @@
+{"name":"D&D 5e 跑团工作台 · 场景导入","version":"1.0.0","manifest_version":1,"description":"从 D&D 5e 跑团工作台的本地素材包创建 Owlbear 场景并导入标记与遮罩。","icon":"./icon.png","action":{"title":"导入跑团工作台素材包","icon":"./icon.png","popover":"./index.html"}}
