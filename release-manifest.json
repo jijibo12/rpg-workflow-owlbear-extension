@@ -1,24 +1,26 @@
 {
   "scanner_version": "publish-scan-1.0.0",
   "rules_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "artifact_hash": "eb938ab020d4a0b43d81b6014f547dc144b16f21c4f0df8ba5124e738d51f1c5",
+  "artifact_hash": "e9b01414f7f6b6c40d0b8b67c73415377d1b1f9e75c4f6d2d8aa0abe25a9b79d",
   "manifest": {
     "name": "D&D 5e 跑团工作台 · 场景导入",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "manifest_version": 1,
     "description": "从 D&D 5e 跑团工作台的本地素材包创建 Owlbear 场景并导入标记与遮罩。",
-    "icon": "./icon.png",
+    "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.png",
     "action": {
       "title": "导入跑团工作台素材包",
-      "icon": "./icon.png",
-      "popover": "./index.html"
+      "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.png",
+      "popover": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/index.html",
+      "width": 420,
+      "height": 620
     }
   },
   "files": [
     {
       "path": "index.html",
-      "sha256": "6f22142d3d7e38793644bc8c31f9577715250dfb15268c4fa9f0c8ed6d7c023e",
-      "bytes": 588
+      "sha256": "3d6102a414441059e834d13143cec4e62140e764d17b19418fc5de63af6f59f5",
+      "bytes": 1001
     },
     {
       "path": "package-lock.json",
@@ -27,7 +29,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "a3304e7842ef52e65aa9716f61bc22a72d35155058af89d6a68b11f2fc714c66",
+      "sha256": "500f1e3d0fe1a8e154d8fc98cdc7529511a910f985e48189ee9fb2406c409604",
       "bytes": 279
     },
     {
@@ -47,13 +49,13 @@
     },
     {
       "path": "dist/index.html",
-      "sha256": "2c30fc477f6127284e9dd02fd2d2dfd9510c90531f4951f1965aeccb357ab50d",
-      "bytes": 690
+      "sha256": "d50c21a12afffae122b5659e2798fdfb6d73edbeb533ed49e2b62ccc460e0a69",
+      "bytes": 1102
     },
     {
       "path": "dist/manifest.json",
-      "sha256": "bc0514efb6b15c471e729e96614f4a1b4e7f88a51175322a200ba4c9325d7bb6",
-      "bytes": 315
+      "sha256": "e27ebb15a22ebeaa168c666f4f5596cd7c885cf1382dd8c68e4bbaca42ec1b3a",
+      "bytes": 508
     },
     {
       "path": "public/icon.png",
@@ -62,8 +64,8 @@
     },
     {
       "path": "public/manifest.json",
-      "sha256": "bc0514efb6b15c471e729e96614f4a1b4e7f88a51175322a200ba4c9325d7bb6",
-      "bytes": 315
+      "sha256": "e27ebb15a22ebeaa168c666f4f5596cd7c885cf1382dd8c68e4bbaca42ec1b3a",
+      "bytes": 508
     },
     {
       "path": "src/main.ts",
