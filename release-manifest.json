@@ -1,1 +1,161 @@
-{"name":"D&D 5e 跑团工作台 · 场景导入","version":"1.0.6","manifest_version":1,"description":"安全导入工作台地图、Token 与 obr-suite 兼容元数据。只新增，不覆盖或删除。","icon":"https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg","action":{"title":"导入跑团工作台素材包","icon":"https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg","popover":"https://jijibo12.github.io/rpg-workflow-owlbear-extension/index.html?v=1.0.6","width":420,"height":620}}
+{
+  "scanner_version": "publish-scan-1.0.0",
+  "rules_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "artifact_hash": "3dc5d73ec6971eb84105fac58961e81b62f26a015d0a210f07ad018907b66b61",
+  "manifest": {
+    "name": "D&D 5e 跑团工作台 · 场景导入",
+    "version": "1.0.6",
+    "manifest_version": 1,
+    "description": "安全导入工作台地图、Token 与 obr-suite 兼容元数据。只新增，不覆盖或删除。",
+    "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg",
+    "action": {
+      "title": "导入跑团工作台素材包",
+      "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg",
+      "popover": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/index.html?v=1.0.6",
+      "width": 420,
+      "height": 620
+    }
+  },
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "eefcd10a1d6d222454026a754749de05b5ac0c12dbe4aec24bdae579ab4f61f3",
+      "bytes": 1060
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "372bbd2c5a7d885d4a79bb19aa1152a8594e5153a6b2ffa814c43a8f9eed26ba",
+      "bytes": 41893
+    },
+    {
+      "path": "package.json",
+      "sha256": "7050508bd0b11e5a361cb4aac9cfa5188631f01b6c23456b821ca5f6396d28b0",
+      "bytes": 279
+    },
+    {
+      "path": "README.md",
+      "sha256": "56e32440f16e3fb34214a96a5a148769c43c3bb181e33ca995621eadcf78f758",
+      "bytes": 844
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "58fb7d5a49c4e847f9d54ee9651d6f1da4c34a1b9ba157e2b8e9b225d2bbf079",
+      "bytes": 112
+    },
+    {
+      "path": "dist/icon-action-transparent.png",
+      "sha256": "f5d4132b6671c7c7193cbd232022b90bbeb4d08f988891f6df2e6142a135571e",
+      "bytes": 3313
+    },
+    {
+      "path": "dist/icon-action.png",
+      "sha256": "8074a006f60bf7e07091f60f5b90418ae24fcb6e09d373a41d7df11148461d78",
+      "bytes": 3948
+    },
+    {
+      "path": "dist/icon.png",
+      "sha256": "7c619659907ea5f0a20341d07c217570b72dc7dc2470843c4d4cce0e86ee580d",
+      "bytes": 1090
+    },
+    {
+      "path": "dist/icon.svg",
+      "sha256": "d7211512709959fab3642d75717406ec997c4dc160ff4910a08dcd2b1c3ce61d",
+      "bytes": 420
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "9d2ecd63de43ad62d482d8a3a35051bebf6c273c5a816e8c6b43fd1a95d98349",
+      "bytes": 1161
+    },
+    {
+      "path": "dist/manifest-v1.0.3.json",
+      "sha256": "23bdf6d4935a63ecbb4d0f3d2d81eed0e70105de7ffe3f68d842c25d59b4e223",
+      "bytes": 516
+    },
+    {
+      "path": "dist/manifest-v1.0.4.json",
+      "sha256": "3cb5923b6a59bdeadeb24bde6b45c648d2abaffdc315b76803aef89cdbc3b2d4",
+      "bytes": 523
+    },
+    {
+      "path": "dist/manifest-v1.0.5.json",
+      "sha256": "1f6781e4c4d8b35ced3d1b89bc520d59e36b0826fd5e0ea0dd66a8fcd66aa9a5",
+      "bytes": 535
+    },
+    {
+      "path": "dist/manifest-v1.0.6.json",
+      "sha256": "3515864bda447c0004a740bf9423a483909ef70200d1e882676fb693df9b936b",
+      "bytes": 525
+    },
+    {
+      "path": "dist/manifest.json",
+      "sha256": "3515864bda447c0004a740bf9423a483909ef70200d1e882676fb693df9b936b",
+      "bytes": 525
+    },
+    {
+      "path": "public/icon-action-transparent.png",
+      "sha256": "f5d4132b6671c7c7193cbd232022b90bbeb4d08f988891f6df2e6142a135571e",
+      "bytes": 3313
+    },
+    {
+      "path": "public/icon-action.png",
+      "sha256": "8074a006f60bf7e07091f60f5b90418ae24fcb6e09d373a41d7df11148461d78",
+      "bytes": 3948
+    },
+    {
+      "path": "public/icon.png",
+      "sha256": "7c619659907ea5f0a20341d07c217570b72dc7dc2470843c4d4cce0e86ee580d",
+      "bytes": 1090
+    },
+    {
+      "path": "public/icon.svg",
+      "sha256": "d7211512709959fab3642d75717406ec997c4dc160ff4910a08dcd2b1c3ce61d",
+      "bytes": 420
+    },
+    {
+      "path": "public/manifest-v1.0.3.json",
+      "sha256": "23bdf6d4935a63ecbb4d0f3d2d81eed0e70105de7ffe3f68d842c25d59b4e223",
+      "bytes": 516
+    },
+    {
+      "path": "public/manifest-v1.0.4.json",
+      "sha256": "3cb5923b6a59bdeadeb24bde6b45c648d2abaffdc315b76803aef89cdbc3b2d4",
+      "bytes": 523
+    },
+    {
+      "path": "public/manifest-v1.0.5.json",
+      "sha256": "1f6781e4c4d8b35ced3d1b89bc520d59e36b0826fd5e0ea0dd66a8fcd66aa9a5",
+      "bytes": 535
+    },
+    {
+      "path": "public/manifest-v1.0.6.json",
+      "sha256": "3515864bda447c0004a740bf9423a483909ef70200d1e882676fb693df9b936b",
+      "bytes": 525
+    },
+    {
+      "path": "public/manifest.json",
+      "sha256": "3515864bda447c0004a740bf9423a483909ef70200d1e882676fb693df9b936b",
+      "bytes": 525
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "31e27545bc1d89fe3cce11aa4c2bda0ee8cac1b3fa12b066849a390355a7dbf7",
+      "bytes": 8302
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "b3c8d94c3f1fc581fdfc9d64423b013a418651bc8b2e1927dfca33788305e36c",
+      "bytes": 649
+    },
+    {
+      "path": "dist/assets/index-Bcm0O2XU.js",
+      "sha256": "f9b5b44a840fb3cf667f68c1978feabbd76d30cfc7b2fdc06fe7610587a23798",
+      "bytes": 167868
+    },
+    {
+      "path": "dist/assets/index-DqCLTbbl.css",
+      "sha256": "b57fc62a5b2da443375952bd81266bf178f62479aff9561128a869413328a0f6",
+      "bytes": 647
+    }
+  ]
+}
