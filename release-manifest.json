@@ -1,17 +1,17 @@
 {
   "scanner_version": "publish-scan-1.0.0",
   "rules_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "artifact_hash": "3dc5d73ec6971eb84105fac58961e81b62f26a015d0a210f07ad018907b66b61",
+  "artifact_hash": "482e5d9064dc8b5421195e9bc2eeb9c0445e6841cc0dd22f9af93f03cdfe83b6",
   "manifest": {
     "name": "D&D 5e 跑团工作台 · 场景导入",
-    "version": "1.0.6",
+    "version": "1.0.9",
     "manifest_version": 1,
-    "description": "安全导入工作台地图、Token 与 obr-suite 兼容元数据。只新增，不覆盖或删除。",
-    "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg",
+    "description": "1.0.9：安全导入地图、Token 与 obr-suite 兼容元数据；只新增，不覆盖或删除。",
+    "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg?v=1.0.9",
     "action": {
       "title": "导入跑团工作台素材包",
-      "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon.svg",
-      "popover": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/index.html?v=1.0.6",
+      "icon": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/icon-action-v109.svg",
+      "popover": "https://jijibo12.github.io/rpg-workflow-owlbear-extension/index.html?v=1.0.9",
       "width": 420,
       "height": 620
     }
@@ -19,8 +19,8 @@
   "files": [
     {
       "path": "index.html",
-      "sha256": "eefcd10a1d6d222454026a754749de05b5ac0c12dbe4aec24bdae579ab4f61f3",
-      "bytes": 1060
+      "sha256": "6dff46a97ce867285b82c8501baa5d269ddecac357ad08785ecc48728023a30c",
+      "bytes": 1120
     },
     {
       "path": "package-lock.json",
@@ -29,13 +29,13 @@
     },
     {
       "path": "package.json",
-      "sha256": "7050508bd0b11e5a361cb4aac9cfa5188631f01b6c23456b821ca5f6396d28b0",
+      "sha256": "16a0e22542093d7563a275e2e1b846648ee5ad933146351a8340e046b6eb792b",
       "bytes": 279
     },
     {
       "path": "README.md",
-      "sha256": "56e32440f16e3fb34214a96a5a148769c43c3bb181e33ca995621eadcf78f758",
-      "bytes": 844
+      "sha256": "f2d6119ed89f663eebf82d9ae8a12fc8cb3d639175a0774dd1be0d42c51a6a5c",
+      "bytes": 1256
     },
     {
       "path": "vite.config.ts",
@@ -46,6 +46,11 @@
       "path": "dist/icon-action-transparent.png",
       "sha256": "f5d4132b6671c7c7193cbd232022b90bbeb4d08f988891f6df2e6142a135571e",
       "bytes": 3313
+    },
+    {
+      "path": "dist/icon-action-v109.svg",
+      "sha256": "41f4ad278c89aab87fadb086cbb5cbe556504dd24dd5decd7b1f8b7fb5f6ef33",
+      "bytes": 303
     },
     {
       "path": "dist/icon-action.png",
@@ -64,8 +69,8 @@
     },
     {
       "path": "dist/index.html",
-      "sha256": "9d2ecd63de43ad62d482d8a3a35051bebf6c273c5a816e8c6b43fd1a95d98349",
-      "bytes": 1161
+      "sha256": "bef69aa186d219b6184f584ba9a779e1a2d4afe1e614301690dc0d4fb09922a3",
+      "bytes": 1221
     },
     {
       "path": "dist/manifest-v1.0.3.json",
@@ -88,14 +93,34 @@
       "bytes": 525
     },
     {
+      "path": "dist/manifest-v1.0.7.json",
+      "sha256": "4963978e3b6c2ee8d00e02663b329bcb922f567d9dd66b105b56676ff7867740",
+      "bytes": 540
+    },
+    {
+      "path": "dist/manifest-v1.0.8.json",
+      "sha256": "6914344745b53709b8f75706ba38843f1e15303059a8f0b53054219d2bed34c2",
+      "bytes": 540
+    },
+    {
+      "path": "dist/manifest-v1.0.9.json",
+      "sha256": "2ad1069c4258c4960a2742f8a29012626fed8faed768d15c27e66b48fbf8a732",
+      "bytes": 544
+    },
+    {
       "path": "dist/manifest.json",
-      "sha256": "3515864bda447c0004a740bf9423a483909ef70200d1e882676fb693df9b936b",
-      "bytes": 525
+      "sha256": "2ad1069c4258c4960a2742f8a29012626fed8faed768d15c27e66b48fbf8a732",
+      "bytes": 544
     },
     {
       "path": "public/icon-action-transparent.png",
       "sha256": "f5d4132b6671c7c7193cbd232022b90bbeb4d08f988891f6df2e6142a135571e",
       "bytes": 3313
+    },
+    {
+      "path": "public/icon-action-v109.svg",
+      "sha256": "41f4ad278c89aab87fadb086cbb5cbe556504dd24dd5decd7b1f8b7fb5f6ef33",
+      "bytes": 303
     },
     {
       "path": "public/icon-action.png",
@@ -133,14 +158,29 @@
       "bytes": 525
     },
     {
+      "path": "public/manifest-v1.0.7.json",
+      "sha256": "4963978e3b6c2ee8d00e02663b329bcb922f567d9dd66b105b56676ff7867740",
+      "bytes": 540
+    },
+    {
+      "path": "public/manifest-v1.0.8.json",
+      "sha256": "6914344745b53709b8f75706ba38843f1e15303059a8f0b53054219d2bed34c2",
+      "bytes": 540
+    },
+    {
+      "path": "public/manifest-v1.0.9.json",
+      "sha256": "2ad1069c4258c4960a2742f8a29012626fed8faed768d15c27e66b48fbf8a732",
+      "bytes": 544
+    },
+    {
       "path": "public/manifest.json",
-      "sha256": "3515864bda447c0004a740bf9423a483909ef70200d1e882676fb693df9b936b",
-      "bytes": 525
+      "sha256": "2ad1069c4258c4960a2742f8a29012626fed8faed768d15c27e66b48fbf8a732",
+      "bytes": 544
     },
     {
       "path": "src/main.ts",
-      "sha256": "31e27545bc1d89fe3cce11aa4c2bda0ee8cac1b3fa12b066849a390355a7dbf7",
-      "bytes": 8302
+      "sha256": "0a888a05c712d171b313018abf537825098ffd7dead2ff54a26d3785272035de",
+      "bytes": 12960
     },
     {
       "path": "src/style.css",
@@ -148,9 +188,9 @@
       "bytes": 649
     },
     {
-      "path": "dist/assets/index-Bcm0O2XU.js",
-      "sha256": "f9b5b44a840fb3cf667f68c1978feabbd76d30cfc7b2fdc06fe7610587a23798",
-      "bytes": 167868
+      "path": "dist/assets/index-DHvyHRip.js",
+      "sha256": "c757ce2b339c250b3028f26b30112596f95b778b253d9156e1153e25beee5277",
+      "bytes": 171195
     },
     {
       "path": "dist/assets/index-DqCLTbbl.css",
